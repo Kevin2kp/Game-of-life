@@ -1,9 +1,6 @@
-import GoL from './GoL';
+import Game from './Game';
 
-const CANVAS_WIDTH = 500;
-const CANVAS_HEIGHT = 500;
-
-let game = new GoL({
+let game = new Game({
   canvasWidth: 500,
   canvasHeight: 500,
   width: 50,

@@ -3,9 +3,8 @@ import World from './World';
 
 /**
  * Hash-based implementation of Conway's Game of Life
- * @class
  */
-export default class GoL {
+class Game {
 
   /**
    * @param props
@@ -154,3 +153,5 @@ export default class GoL {
         this._cellHeight);
   }
 }
+
+export default Game;
