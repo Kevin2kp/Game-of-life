@@ -1,22 +1,22 @@
-<a name="GoL"></a>
+<a name="Game"></a>
 
-## GoL
+## Game
 Hash-based implementation of Conway's Game of Life
 
 **Kind**: global class  
 
-* [GoL](#GoL)
-    * [new GoL(props)](#new_GoL_new)
-    * [.step](#GoL+step)
-    * [.maxSkip](#GoL+maxSkip)
-    * [.fillStyle](#GoL+fillStyle)
-    * [.reset()](#GoL+reset)
-    * [.start()](#GoL+start)
-    * [.stop()](#GoL+stop)
+* [Game](#Game)
+    * [new Game(props)](#new_Game_new)
+    * [.step](#Game+step)
+    * [.maxSkip](#Game+maxSkip)
+    * [.fillStyle](#Game+fillStyle)
+    * [.reset()](#Game+reset)
+    * [.start()](#Game+start)
+    * [.stop()](#Game+stop)
 
-<a name="new_GoL_new"></a>
+<a name="new_Game_new"></a>
 
-### new GoL(props)
+### new Game(props)
 
 | Param | Description |
 | --- | --- |
@@ -31,42 +31,42 @@ Hash-based implementation of Conway's Game of Life
 | props.canvasWidth | Width of the HTML canvas |
 | props.canvasHeight | Height of the HTML canvas |
 
-<a name="GoL+step"></a>
+<a name="Game+step"></a>
 
-### goL.step
+### game.step
 Time in seconds between world updates
 
-**Kind**: instance property of [<code>GoL</code>](#GoL)  
+**Kind**: instance property of [<code>Game</code>](#Game)  
 **Access**: public  
-<a name="GoL+maxSkip"></a>
+<a name="Game+maxSkip"></a>
 
-### goL.maxSkip
+### game.maxSkip
 Maximum number of frames that can be skipped at a time
 
-**Kind**: instance property of [<code>GoL</code>](#GoL)  
+**Kind**: instance property of [<code>Game</code>](#Game)  
 **Access**: public  
-<a name="GoL+fillStyle"></a>
+<a name="Game+fillStyle"></a>
 
-### goL.fillStyle
+### game.fillStyle
 Fill style for cells
 
-**Kind**: instance property of [<code>GoL</code>](#GoL)  
+**Kind**: instance property of [<code>Game</code>](#Game)  
 **Access**: public  
-<a name="GoL+reset"></a>
+<a name="Game+reset"></a>
 
-### goL.reset()
+### game.reset()
 Clear world and repopulate with cells in random positions
 
-**Kind**: instance method of [<code>GoL</code>](#GoL)  
-<a name="GoL+start"></a>
+**Kind**: instance method of [<code>Game</code>](#Game)  
+<a name="Game+start"></a>
 
-### goL.start()
+### game.start()
 Start/unpause simulation
 
-**Kind**: instance method of [<code>GoL</code>](#GoL)  
-<a name="GoL+stop"></a>
+**Kind**: instance method of [<code>Game</code>](#Game)  
+<a name="Game+stop"></a>
 
-### goL.stop()
+### game.stop()
 Pause simulation
 
-**Kind**: instance method of [<code>GoL</code>](#GoL)  
+**Kind**: instance method of [<code>Game</code>](#Game)  
